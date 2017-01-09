@@ -2,7 +2,7 @@
     
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "cat.numancia.pong_sergi_curtu"
+        id          = "cat.numancia.pong_lidia_boza"
         versionCode = "1" 
         version     = "0.0.01" >
 	
@@ -10,14 +10,14 @@
 
 	
 
-   <name>Pong SCB</name>
+   <name>Pong Lidia</name>
 
    <description>
-       Un pong fet per alumnes de 4t del Numància
+       Un pong fet per lidia boza alumne 4t
     </description>
 
-    <author href="https://numancia.cat/intranet" email="sergi.curtu@numancia.cat">
-       Sergi Curtu
+    <author href="https://numancia.cat/intranet" email="lboza91@iesnumancia.cat">
+       Lidia Boza
     </author>
 
 	<content src="index.html"/>
