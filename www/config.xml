@@ -92,7 +92,7 @@
 	<gap:splash src="splash.png" /> <!--per defecte splash a l'arrel -->
 
 
-	<!-- Android icons  ================================================================== -->
+	<!-- Android icons  ================================================================== --> 
 	
 	<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" />	<!-- 36x36 -->
 	<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48x48 -->
