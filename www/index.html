@@ -23,7 +23,7 @@
 		
         <title>ins Numància -- Control·lador ESP8266 by scb/ory(c)2016 -- </title>
 	
-		<script>
+	<script>
 		// Redirect console.log to Evothings Workbench.
 		if (window.hyper && window.hyper.log) { console.log = hyper.log }
 	</script>
@@ -34,9 +34,13 @@
     	
     	
 		<!-- AQUÍ VA CODI A MOSTRAR PER PANTALLA -->
-	    <canvas id="canvas"></canvas>
-        
-        
+	    	<div style="position: relative;">
+			<canvas id="canvas_fons" width="100" height="100" style="position: absolute; left: 0; top: 0; z-index: 0;"></canvas>	
+			<canvas id="canvas" width="100" height="100" style="position: absolute; left: 0; top: 0; z-index: 1;background-color:transparent"></canvas>	
+	    	</div>
+		
+	
+	    
         	<style>
         	
         		html, body {
@@ -66,6 +70,10 @@
 		<!-- index.js-->
 		<!-- AQUEST ES POT COMENTAR SI FEM SERVIR JSVIEW o MOBILEJS -->
 		<script type="text/javascript" src="js/index.js"></script>
+	    
+	    	<!-- CanvasGamepad.js-->
+		<!-- PER CONTRAL DEL GAMEPAD -->
+		<!--<script type="text/javascript" src="js/CanvasGamepad.js"></script>-->
 		
 		<!-- evothings -->
 		<script type="text/javascript" src="libs/evothings/evothings.js"></script>
